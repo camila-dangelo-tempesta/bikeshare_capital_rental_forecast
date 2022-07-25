@@ -4,7 +4,7 @@
 
 <div align="center">
 <p float="left">
-  <img src="/images/bike.png" width="1000" height="350"/>
+  <img src="/images/bike.png" width="1000" height="750"/>
 </p>
 </div>
 
@@ -15,7 +15,7 @@ This experiment aims to demonstrate the process of building a regression model t
 
 We will use a dataset to build and train our model.
 
-The "Bike Rental UCI" dataset (https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) will be used to build and train the model in this experiment.
+The  dataset ["Bike Rental UCI"](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) will be used to build and train the model in this experiment.
 
 This dataset is based on real data from the company Capital Bikeshare, which operates bicycle rentals in the city of WashingtonDC, USA.
 
@@ -26,10 +26,10 @@ The dataset contains 17,379 observations and 17 variables, representing the numb
 
 ### 2.1 **Assumptions:** 
 
-# This code contains commands to filter and transform the bike rental data,
-# This code was created to run on both Azure and RStudio;
-# To run on Azure, change the value of the Azure variable to TRUE;
-# That is, if the value is FALSE, the code will be executed in RStudio;
+- This code contains commands to filter and transform the bike rental data,
+- This code was created to run on both Azure and RStudio;
+- To run on Azure, change the value of the Azure variable to TRUE;
+- That is, if the value is FALSE, the code will be executed in RStudio;
 
 ***
 ## 3. SOLUTION PLANNING
@@ -45,7 +45,7 @@ The dataset contains 17,379 observations and 17 variables, representing the numb
 - [x] **Step 04:** **Exploratory Data Analysis**:
   - Correlation
   - Time Series
-	- [x] **Step 4.1:** **Exploratory Data Analysis**: Views
+	- [x] **Step 4.1:** Exploratory Data Analysis: Views
 		- BoxPlot
 		- Density Plot
 
@@ -59,21 +59,15 @@ The dataset contains 17,379 observations and 17 variables, representing the numb
 
 - [x] **Step 07:** Convert Model Performance to Business Values
 
-- [ ] **Step 08:**  Deploy Modelo to Production
+- [x] **Step 08:**  Deploy Modelo to Production
+  - Microsoft Azure Machine Learning
 
 ***
 ## 4. TOP 5 DATA INSIGHTS
 
-**Hypothesis 01:** Stores with larger assortments should sell more
- - *Reply:* **Falso**. The first graph describes the amount of sales by type of assortment, then we have the behavior of the variables over time. And finally a linearity investigation of the extra attribute referring to the assortment variable
+**Hypothesis 01:** 
+ - *Reply:* ****. 
 
-<div align="center">
-<p float="left">
-    <img src="/images/h1.png" width="600" height="500"/>
-  <img src="/images/h1_1.png" width="600" height="500"/>
-  <img src="/images/h1_2.png" width="600" height="500"/>
-</p>
-</div>
 
 
 ***
@@ -86,20 +80,22 @@ Regression tests were done using different algorithms with Microsoft Azure Machi
 
 <div align="center">
 <p float="left">
-    <img src="/images/mindmap.png" width="600" height="500"/>
+    <img src="/images/mind_map.png" width="600" height="500"/>
 </p>
 </div>
 ***
+
 ## 6. Machine Learning Modelo Performance
 
 The summary below shows the metrics comparison after running the models
 
-|                                            | Mean Absolute Error | Root Mean Squared Error | Relative Absolute Error | Relative Squared Error | **Relative Squared Error** | 
-|--------------------------------------------|:-------------------:|:-----------------------:|:-----------------------:|:----------------------:|:--------------------------:|
-| Linear Regression                          | 113.277058          | 150.46221               | 0.798987                | 0.689668               | **0.310332                 |
-| Boosted Decision Tree Regression           | 29.342033           | 44.857338               | 0.206961                | 0.061299               | **0.938701                 |
+|                                    | Mean Absolute Error | Root Mean Squared Error | Relative Absolute Error | Relative Squared Error | **Relative Squared Error** | 
+|------------------------------------|:-------------------:|:-----------------------:|:-----------------------:|:----------------------:|:--------------------------:|
+| Linear Regression                  | 113.277058          | 150.46221               | 0.798987                | 0.689668               | **0.310332**               |
+| Boosted Decision Tree Regression   | 29.342033           | 44.857338               | 0.206961                | 0.061299               | **0.938701**               |
 
-### 2.1 **Waste Analysis:** 
+
+### 6.1 **Waste Analysis:** 
 
 
 ***
@@ -116,7 +112,6 @@ The summary below shows the metrics comparison after running the models
 
 ***
 # Tools
-
 - Microsoft Azure Machie Learning
 - R Language
 
