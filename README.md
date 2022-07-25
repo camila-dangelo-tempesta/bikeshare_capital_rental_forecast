@@ -75,8 +75,8 @@ The dataset contains 17,379 observations and 17 variables, representing the numb
 
 Regression tests were done using different algorithms with Microsoft Azure Machile Learning:
 
-  - 1º Linear Regression 
-  - 2º Boosted Decision Tree Regression
+  - Linear Regression 
+  - Boosted Decision Tree Regression
 
 <div align="center">
 <p float="left">
