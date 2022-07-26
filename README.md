@@ -2,6 +2,12 @@
 
 ## Forecasting the demand for car rental Bicycles
 
+<div align="center">
+<p float="left">
+    <img src="/images/bike.png" width="600" height="500"/>
+</p>
+</div>
+
 ***
 ## 1. BUSINESS PROBLEMS
 
@@ -23,7 +29,7 @@ The [Bike Rental UCI](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Datas
 
 The dataset contains 17,379 observations and 17 variables, representing the number of bicycles rented within specific hours of the day, in the years of 2011 and 2012. Weather conditions (such as temperature, humidity and speed of wind) were included in the dataset and the dates were categorized as holidays and days of the week.
 
-**Bike Sharing Dataset Data Set**: This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
+ - **Bike Sharing Dataset Data Set**: This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
 
 |        	                       | Values                     | 
 |--------------------------------------|:--------------------------:|
@@ -56,14 +62,13 @@ All complementary information regarding the dataset can be found in this reposit
 - [x] **Step 06:** **Convert Model Performance to Business Values**:
 
 - [x] **Step 07:**  **Deploy Modelo to Production**:
+
 ***
 ## 4. TOP 5 DATA INSIGHTS
 
 **Hypothesis 01:** 
  - *Reply:* ****. 
-
-
-
+ - 
 ***
 ## 5. Machine Learning Model Applied
 
