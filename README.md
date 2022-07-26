@@ -1,67 +1,61 @@
 # **BIKESHARE CAPITAL RENTAL FORECAST**
 
-## Forecasting Bicycle Rental Demand
-
-<div align="center">
-<p float="left">
-  <img src="/images/bike.png" width="1000" height="750"/>
-</p>
-</div>
+## Forecasting the demand for car rental Bicycles
 
 ***
 ## 1. BUSINESS PROBLEMS
 
-This experiment aims to demonstrate the process of building a regression model to predict the demand for bicycle rental. Where, the objective will be to predict the value of the variable cnt (count) that represents the amount of rented bicycles and whose objective within a specific hour range is from 1 to 977.
+### 1.1 Summary
 
-We will use a dataset to build and train our model.
+This experiment aims to create a predictive model for estimate the demand for bicycle rental.
 
-The  dataset ["Bike Rental UCI"](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) will be used to build and train the model in this experiment.
+### 1.2 Description
 
-This dataset is based on real data from the company Capital Bikeshare, which operates bicycle rentals in the city of WashingtonDC, USA.
+This experiment aims to demonstrate the process of building a model regression model to predict the demand for bicycle rentals. We will use a dataset to build and train our model.
 
-***
-## 2. BUSINESS ASSUMPTIONS
+### 1.3 Objective
 
-The dataset contains 17,379 observations and 17 variables, representing the number of bikes rented within specific hours of the day, in the years 2011 and 2012. Weather conditions (such as temperature, humidity and wind speed) were included in the dataset and the dates were categorized such as holidays and weekdays.
+The objective will be to predict the value of the variable cnt (count) that represents the number of bicycles rented within a specific time and whose range is from 1 to 977.
 
-### 2.1 **Assumptions:** 
+## 2. Data
 
-- This code contains commands to filter and transform the bike rental data,
-- This code was created to run on both Azure and RStudio;
-- To run on Azure, change the value of the Azure variable to TRUE;
-- That is, if the value is FALSE, the code will be executed in RStudio;
+The [Bike Rental UCI](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) dataset will be used to build and train the model in this experiment. This dataset is based on real company data Capital Bikeshare, which operates bike rentals in the city of Washington DC, In the USA.
+
+The dataset contains 17,379 observations and 17 variables, representing the number of bicycles rented within specific hours of the day, in the years of 2011 and 2012. Weather conditions (such as temperature, humidity and speed of wind) were included in the dataset and the dates were categorized as holidays and days of the week.
+
+**Bike Sharing Dataset Data Set**: This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
+
+|        	                       | Values                     | 
+|--------------------------------------|:--------------------------:|
+| Data Set Characteristics:            |  Univariate                | 
+| Attribute Characteristics:           |  Integer, Real             | 
+| Associated Tasks:                    |  Regression                | 
+| Number of Instances:                 |  17389                     | 
+| Number of Attributes:                |  16                        | 
+| Missing Values?                      |  N/A                       | 
+| Area                                 |  Social                    | 
+| Date Donated                         |  2013-12-20                | 
+| Number of Web Hits                   |  687765                    | 
+
+
+All complementary information regarding the dataset can be found in this repository in the documents folder.
 
 ***
 ## 3. SOLUTION PLANNING
 
 - [x] **Step 01:** **Data Collect**:
 
-- [x] **Step 02:** **Data Munging**:
-  - Data Cleaning
-  - Data Transformation
+- [x] **Step 02:** **Feature Engineering**:
 
-- [x] **Step 03:** **Feature Engineering**:
+- [x] **Step 03:** **Exploratory Data Analysis**:
 
-- [x] **Step 04:** **Exploratory Data Analysis**:
-  - Correlation
-  - Time Series
-	- [x] **Step 4.1:** Exploratory Data Analysis: Views
-		- BoxPlot
-		- Density Plot
+- [x] **Step 04:** **Feature Selection**: 
 
-- [x] **Step 05:** **Feature Selection**: 
-  - Random Forest (R Language)
-  - Kendall Correlation (Microsoft Azure Machine Learning)
+- [x] **Step 05:** **Machine Learning Modelling**:
 
-- [x] **Step 06:** Machine Learning Modelling
-  - 1º Linear Regression 
-  - 2 Boosted Decision Tree Regression
+- [x] **Step 06:** **Convert Model Performance to Business Values**:
 
-- [x] **Step 07:** Convert Model Performance to Business Values
-
-- [x] **Step 08:**  Deploy Modelo to Production
-  - Microsoft Azure Machine Learning
-
+- [x] **Step 07:**  **Deploy Modelo to Production**:
 ***
 ## 4. TOP 5 DATA INSIGHTS
 
